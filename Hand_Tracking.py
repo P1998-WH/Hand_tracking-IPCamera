@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import time
 
-#Open Camera object
-cap = cv2.VideoCapture("rtsp://admin:admin123@192.168.10.7:554/live")
+#Open Camera object(rtsp://username:usernamepassword@IP:Port/live")
+cap = cv2.VideoCapture("rtsp://admin:adminXXX@192.168.10.X:XXX/live")
 
 #Decrease frame size
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1000)
